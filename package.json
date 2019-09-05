@@ -1,6 +1,6 @@
 {
   "name": "movie-char-names",
-  "version": "0.0.0-development",
+  "version": "1.2.0-beta.0",
   "description": "Get rnadom Star Wars names",
   "main": "src/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/soumanpaul/starwars-random-names.git"
+    "url": "https://github.com/soumanpaul/movie-char-names.git"
   },
   "keywords": [
     "random",
@@ -19,9 +19,9 @@
     "wars"
   ],
   "bugs": {
-    "url": "https://github.com/soumanpaul/starwars-random-names/issues"
+    "url": "https://github.com/soumanpaul/movie-char-names/issues"
   },
-  "homepage": "https://github.com/soumanpaul/starwars-random-names#readme",
+  "homepage": "https://github.com/soumanpaul/movie-char-names#readme",
   "dependencies": {
     "unique-random-array": "2.0.0"
   },
