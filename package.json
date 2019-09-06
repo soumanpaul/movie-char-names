@@ -1,6 +1,10 @@
 {
   "name": "movie-char-names",
+<<<<<<< HEAD
   "version": "0.0.0-sementically-released",
+=======
+  "version": "1.2.0-beta.0",
+>>>>>>> 9fd0d07... solve
   "description": "Get rnadom Star Wars names",
   "main": "src/index.js",
   "scripts": {
