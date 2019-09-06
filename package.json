@@ -1,13 +1,13 @@
 {
   "name": "movie-char-names",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-sementically-released",
   "description": "Get rnadom Star Wars names",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha src/index.test.js -w",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release pre &amp;&amp; npm publish &amp;&amp; semantic-release post"
   },
-  "author": "Souman Paul <souman1729@gmail.com> (https://soumanpaul.github.io/)",
+  "author": "Souman chandra Paul <souman1729@gmail.com> (https://soumanpaul.github.io/)",
   "license": "MIT",
   "repository": {
     "type": "git",
