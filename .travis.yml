@@ -4,14 +4,16 @@ cache:
     - node_modules
 notifications:
   email: false
-node_js:
-  - '7'
-  - '6'
-  - '4'
+# node_js:
+#   - '7'
+#   - '6'
+#   - '4'
+before install:
+  - npm i -g npm@^6.10.2
 before_script:
   - npm prune
 script:
-  - npm run test  
+  - npm run test:single  
 after_success:
   - npm run semantic-release
 branches:
