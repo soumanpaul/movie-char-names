@@ -4,12 +4,8 @@ cache:
     - node_modules
 notifications:
   email: false
-# node_js:
-#   - '7'
-#   - '6'
-#   - '4'
-before install:
-  - npm i -g npm@^6.10.2
+node_js:
+  - '10'
 before_script:
   - npm prune
 script:
